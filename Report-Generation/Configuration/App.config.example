@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="HanaDriver" value="HDBODBC" />
+    <add key="HanaServer" value="YOUR_HANA_SERVER" />
+    <add key="HanaUser" value="YOUR_HANA_USER" />
+    <add key="HanaPassword" value="YOUR_HANA_PASSWORD" />
+    <add key="HanaDatabase" value="YOUR_DATABASE" />
+
+    <add key="PurchaseOrderReportFileName" value="Purchase Order.rpt" />
+    <add key="SubVendorPurchaseOrderReportFileName" value="SUB_PO.rpt" />
+    <add key="InternalReportFileName" value="InternalAR.rpt" />
+    <add key="ExternalReportFileName" value="ExternalAR.rpt" />
+
+    <add key="SmtpServer" value="smtp.office365.com" />
+    <add key="SmtpPort" value="587" />
+    <add key="SmtpUser" value="YOUR_SMTP_USER" />
+    <add key="SmtpPassword" value="YOUR_SMTP_PASSWORD" />
+    <add key="FromMail" value="your-email@example.com" />
+
+    <add key="ARInvoiceLogDirectory" value="D:\Logs\ARInvoiceReportLogs" />
+    <add key="PurchaseOrderLogDirectory" value="D:\Logs\PurchaseReportLogs" />
+    <add key="GRPOLogDirectory" value="D:\Logs\GRPOReportLogs" />
+  </appSettings>
+</configuration>
